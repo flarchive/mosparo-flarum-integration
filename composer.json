@@ -1,0 +1,72 @@
+{
+    "name": "mosparo/flarum-integration",
+    "description": "A Flarum extension to protect the account forms with mosparo.",
+    "keywords": [
+        "flarum", "mosparo", "spam-protection"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^2.0",
+        "mosparo/php-api-client": "^2.0"
+    },
+    "authors": [
+        {
+            "name": "mosparo Core Developers",
+            "email": "info@mosparo.io",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Mosparo\\FlarumIntegration\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "mosparo Integration",
+            "category": "feature",
+            "icon": {
+                "image": "icon.svg",
+                "backgroundColor": "#fff"
+            }
+        },
+        "flarum-cli": {
+            "modules": {
+                "admin": true,
+                "forum": true,
+                "js": true,
+                "jsCommon": true,
+                "css": true,
+                "locale": true,
+                "gitConf": true,
+                "githubActions": true,
+                "prettier": true,
+                "typescript": true,
+                "bundlewatch": true,
+                "frontendTesting": true,
+                "backendTesting": true,
+                "phpstan": true,
+                "editorConfig": true,
+                "styleci": true
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload-dev": {
+        "psr-4": {
+            "Mosparo\\FlarumIntegration\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "analyse:phpstan": "phpstan analyse",
+        "clear-cache:phpstan": "phpstan clear-result-cache"
+    },
+    "scripts-descriptions": {
+        "analyse:phpstan": "Run static analysis"
+    },
+    "require-dev": {
+        "flarum/phpstan": "^2.0"
+    }
+}

@@ -1,0 +1,14 @@
+mosparo-integration:
+  admin:
+    info_howto: Um die Erweiterung einzurichten, benötigen Sie ein mosparo-Projekt in einer mosparo-Installation. Weitere Informationen hierzu finden Sie auf <a>unserer Website</a>.
+    host_label: Host
+    uuid_label: Eindeutige Identifikationsnummer
+    public_key_label: Öffentlicher Schlüssel
+    private_key_label: Geheimer Schlüssel
+    verify_ssl_label: SSL-Serverzertifikat verifizieren
+
+  api:
+    verification_failed: => validation.mosparo
+
+validation:
+  mosparo: Das Formular konnte nicht korrekt verarbeitet werden. Das Formular enthält entweder Spam oder wurde nicht ordnungsgemäss verifiziert.

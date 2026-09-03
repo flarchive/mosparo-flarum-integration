@@ -1,0 +1,14 @@
+mosparo-integration:
+  admin:
+    info_howto: You need a mosparo project in a mosparo installation to set up the extension. Learn more about this on <a>our website</a>.
+    host_label: Host
+    uuid_label: UUID
+    public_key_label: Public key
+    private_key_label: Private key
+    verify_ssl_label: Verify SSL
+
+  api:
+    verification_failed: => validation.mosparo
+
+validation:
+  mosparo: The form couldn't be processed correctly. The form either contains spam or was not verified correctly.

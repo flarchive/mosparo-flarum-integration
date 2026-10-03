@@ -2,13 +2,14 @@
 
 > **Read-only archive of released versions of mosparo/flarum-integration.** Not for installation: use [Packagist](https://packagist.org/packages/mosparo/flarum-integration) or the [upstream repository](https://github.com/mosparo/flarum-integration).
 
-**0** versions archived · Latest: [`v1.0.1`](https://github.com/flarchive/mosparo-flarum-integration/tree/archive/v1.0.1) · License: `MIT` · Flarum: `^2.0`
+**2** versions archived · Latest: [`v1.0.1`](https://github.com/flarchive/mosparo-flarum-integration/tree/archive/v1.0.1) · License: `MIT` · Flarum: `^2.0`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| — | — | — | — |
+| `v1.0.0` | 2026-06-26 | `^2.0` | [Browse](https://github.com/flarchive/mosparo-flarum-integration/tree/archive/v1.0.0) |
+| `v1.0.1` | 2026-09-03 | `^2.0` | [Browse](https://github.com/flarchive/mosparo-flarum-integration/tree/archive/v1.0.1) |
 
 Catalog entry: [packages/mosparo-flarum-integration.json](https://github.com/flarchive/archive-index/blob/main/packages/mosparo-flarum-integration.json)
 
